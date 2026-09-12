@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Plone Logo" width="200px" src="https://raw.githubusercontent.com/plone/plone-zeo/main/docs/logo.png">
+    <img alt="Plone Logo" width="200px" src="https://raw.githubusercontent.com/plone/container-zeo/main/docs/logo.png">
 </p>
 
 <h1 align="center">
@@ -11,8 +11,8 @@
 [![Docker Image Version (latest semver)](https://img.shields.io/docker/v/plone/plone-zeo?sort=semver)](https://hub.docker.com/r/plone/plone-zeo)
 [![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/plone/plone-zeo?sort=semver)](https://hub.docker.com/r/plone/plone-zeo)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/plone/plone-zeo?style=flat-square)
-[![license badge](https://img.shields.io/github/license/plone/plone-zeo)](./LICENSE)
+![GitHub Repo stars](https://img.shields.io/github/stars/plone/container-zeo?style=flat-square)
+[![license badge](https://img.shields.io/github/license/plone/container-zeo)](./LICENSE)
 
 </div>
 
@@ -23,21 +23,21 @@ A ZEO Server [Docker](https://docker.com) image using Python 3 and [pip](https:/
 
 ### Latest
 
-- `6, 6.0, 6.0.0, latest` [(6.0.0/Dockerfile)](https://github.com/plone/plone-zeo/blob/v6.0.0/Dockerfile)
+- `6, 6.0, 6.0.0, latest` [(6.0.0/Dockerfile)](https://github.com/plone/container-zeo/blob/v6.0.0/Dockerfile)
 
 
 ### Nightly build
 
-- `nightly` [(Dockerfile.nightly)](https://github.com/plone/plone-zeo/blob/main/Dockerfile.nightly)
+- `nightly` [(Dockerfile.nightly)](https://github.com/plone/container-zeo/blob/main/Dockerfile.nightly)
 
 
 ### Previous
 
-- `5.4, 5.4.1` [(5.4.1/Dockerfile)](https://github.com/plone/plone-zeo/blob/v5.4.1/Dockerfile)
+- `5.4, 5.4.1` [(5.4.1/Dockerfile)](https://github.com/plone/container-zeo/blob/v5.4.1/Dockerfile)
 
-- `5.3, 5.3.0` [(5.3.0/Dockerfile)](https://github.com/plone/plone-zeo/blob/v5.3.0/Dockerfile)
+- `5.3, 5.3.0` [(5.3.0/Dockerfile)](https://github.com/plone/container-zeo/blob/v5.3.0/Dockerfile)
 
-- `5.2, 5.2.2, 5.2.2--python39` [(5.2.2/Dockerfile)](https://github.com/plone/plone-zeo/blob/v5.2.2/5.2/5.2.2/Dockerfile.python39)
+- `5.2, 5.2.2, 5.2.2--python39` [(5.2.2/Dockerfile)](https://github.com/plone/container-zeo/blob/v5.2.2/5.2/5.2.2/Dockerfile.python39)
 
 ## Usage
 
@@ -76,8 +76,8 @@ And then build the new image and start the container.
 
 ## Contribute
 
-- [Issue Tracker](https://github.com/plone/plone-zeo/issues)
-- [Source Code](https://github.com/plone/plone-zeo/)
+- [Issue Tracker](https://github.com/plone/container-zeo/issues)
+- [Source Code](https://github.com/plone/container-zeo/)
 - [Documentation](https://6.docs.plone.org/install/containers/images/zeo.html)
 
 Please **DO NOT** commit to main directly. Even for the smallest and most trivial fix.
