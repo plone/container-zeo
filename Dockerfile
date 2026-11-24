@@ -11,6 +11,8 @@ RUN <<EOT
     apt-get -y upgrade
     buildDeps="build-essential"
     apt-get install -y --no-install-recommends $buildDeps
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
     python -m venv /app
 EOT
 
