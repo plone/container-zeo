@@ -23,7 +23,7 @@ A ZEO Server [Docker](https://docker.com) image using Python 3 and [pip](https:/
 
 ### Latest
 
-- `6, 6.0, 6.0.0, latest` [(6.0.0/Dockerfile)](https://github.com/plone/container-zeo/blob/v6.0.0/Dockerfile)
+- `6, 6.1, 6.1.0, latest` [(6.1.0/Dockerfile)](https://github.com/plone/container-zeo/blob/v6.1.0/Dockerfile)
 
 
 ### Nightly build
@@ -32,6 +32,8 @@ A ZEO Server [Docker](https://docker.com) image using Python 3 and [pip](https:/
 
 
 ### Previous
+
+- `6, 6.0, 6.0.0, latest` [(6.0.0/Dockerfile)](https://github.com/plone/container-zeo/blob/v6.0.0/Dockerfile)
 
 - `5.4, 5.4.1` [(5.4.1/Dockerfile)](https://github.com/plone/container-zeo/blob/v5.4.1/Dockerfile)
 

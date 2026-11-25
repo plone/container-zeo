@@ -1,9 +1,9 @@
 # syntax=docker/dockerfile:1
-ARG PYTHON_VERSION=3.11
-FROM python:${PYTHON_VERSION}-slim-bullseye AS base
+ARG PYTHON_VERSION=3.13
+FROM python:${PYTHON_VERSION}-slim-trixie AS base
 FROM base AS builder
 
-ENV ZEO_VERSION=6.0.0
+ENV ZEO_VERSION=6.1.0
 
 RUN <<EOT
     set -e
@@ -11,6 +11,8 @@ RUN <<EOT
     apt-get -y upgrade
     buildDeps="build-essential"
     apt-get install -y --no-install-recommends $buildDeps
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
     python -m venv /app
 EOT
 
